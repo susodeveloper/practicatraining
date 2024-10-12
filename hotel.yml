@@ -14,7 +14,7 @@ spring:
       ddl-auto: none
       dialect: org.hibernate.dialect.MySQL8Dialect
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicity-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: false
     generate-ddl: false
